@@ -2,7 +2,7 @@ No-01(ANS) :
 getElementById : It select a item by id. It use to single element operation with id name. if id not match it return null.
 getElementsByClassName : It select multiple item using class name. It return HTML Collection.
 querySelector: It give the first element of matching class,tag Name , even id work here etc. 
-querySelectorAll: It similiar like getElementsByClassName but it has special power to select element . Like if i want to select the class inside a div. It work well but getElementsByClassName select all document class.
+querySelectorAll: It similiar like getElementsByClassName but it has special power to select element . Like if i want to select the class inside a div. It work well but getElementsByClassName select all class of the document.
 
 No-02(ANS):
 Firstly create an element using createElement . secondly add essential Content (innerHTML,innerText,Css,Id etc). Then it add to document using append,appendChild etc.
