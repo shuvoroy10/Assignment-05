@@ -231,6 +231,7 @@ div > img {
 .nav-right > div{
   width: 60px;
   height: 27px;
+  gap: 3px;
 }
 /* Hero Section */
 .hero-section{
