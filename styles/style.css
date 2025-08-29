@@ -44,6 +44,7 @@ body {
 .navbar {
   padding: 30px 60px 30px 60px;
   justify-content: space-between;
+  width: 100%;
 }
 .nav-right {
   gap: 20px;
@@ -204,4 +205,61 @@ div > img {
 }
 .call-history-section-name{
   font-size: 18px;
+}
+/* Mobile Responsive */
+@media screen and (max-width: 576px){
+  /* Navbar */
+  .navbar {
+  padding: 5px;
+  width: 100%;
+}
+.nav-right{
+  font-size: 12px;
+  gap: 5px;
+}
+div > img {
+  width: 35px;
+  height: 35px;
+}
+.nav-div > h3 {
+  font-size: 12px;
+}
+.nav-right > div{
+  width: 80px;
+  height: 35px;
+  gap: 5px;
+}
+/* Hero Section */
+.hero-section{
+  height: 150px;
+}
+.hero-section > img {
+  width: 55px;
+  height: 55px;
+}
+.hero-section > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+.hero-section > p {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+/* Emergency Section */
+.emergency-section {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: 360px 360px 360px; */
+  gap: 20px;
+  padding: 10px;
+}
+#box-4 {
+  order: -1;           /* move box-4 to top */
+  align-self: stretch; /* width full */
+}
 }
