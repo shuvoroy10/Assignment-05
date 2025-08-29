@@ -133,7 +133,7 @@ div > img {
 .icon {
   font-size: 20px;
 }
-.icon:hover{
+.icon:hover {
   color: red;
 }
 .middle-section {
@@ -181,7 +181,7 @@ div > img {
   background-color: white;
   color: #5c5c5c;
 }
-.copy-btn:hover{
+.copy-btn:hover {
   color: white;
   background-color: black;
 }
@@ -189,10 +189,13 @@ div > img {
   background-color: #00a63e;
   color: white;
 }
+.call-btn:hover {
+  background-color: rgba(92, 92, 92, 0.69);
+}
 .history-section {
   justify-content: space-between;
 }
-.history-btn{
+.history-btn {
   border: none;
   background-color: white;
   font-size: 20px;
@@ -208,75 +211,78 @@ div > img {
   font-weight: 600;
   border-radius: 25px;
 }
-.call-history-section{
+.clear-btn:hover {
+  background-color: rgba(92, 92, 92, 0.69);
+}
+.call-history-section {
   margin-top: 20px;
   justify-content: space-between;
 }
-.call-history-section-date{
+.call-history-section-date {
   font-size: 20px;
 }
-.call-history-section-name{
+.call-history-section-name {
   font-size: 18px;
 }
 /* Mobile Responsive */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   /* Navbar */
   .navbar {
-  padding: 5px;
-  width: 100%;
-}
-.nav-right{
-  font-size: 12px;
-  gap: 5px;
-}
-div > img {
-  width: 35px;
-  height: 35px;
-}
-.icon-img {
-  width: 15px;
-  height: 15px;
-}
-.nav-div > h3 {
-  font-size: 12px;
-}
-.nav-right > div{
-  width: 60px;
-  height: 27px;
-  gap: 3px;
-}
-/* Hero Section */
-.hero-section{
-  height: 150px;
-  margin-top: 45px;
-}
-.hero-section > img {
-  width: 55px;
-  height: 55px;
-}
-.hero-section > h2 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 5px 0 5px 0;
-  text-align: center;
-}
-.hero-section > p {
-  font-size: 12px;
-  font-weight: 600;
-  text-align: center;
-  padding: 0 10px 0 10px;
-}
-/* Emergency Section */
-.emergency-section {
-  display: flex;
-  flex-direction: column;
-  /* grid-template-columns: 1fr;
+    padding: 5px;
+    width: 100%;
+  }
+  .nav-right {
+    font-size: 12px;
+    gap: 5px;
+  }
+  div > img {
+    width: 35px;
+    height: 35px;
+  }
+  .icon-img {
+    width: 15px;
+    height: 15px;
+  }
+  .nav-div > h3 {
+    font-size: 12px;
+  }
+  .nav-right > div {
+    width: 60px;
+    height: 27px;
+    gap: 3px;
+  }
+  /* Hero Section */
+  .hero-section {
+    height: 150px;
+    margin-top: 45px;
+  }
+  .hero-section > img {
+    width: 55px;
+    height: 55px;
+  }
+  .hero-section > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 5px 0;
+    text-align: center;
+  }
+  .hero-section > p {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  /* Emergency Section */
+  .emergency-section {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr;
   grid-template-rows: 360px 360px 360px; */
-  gap: 20px;
-  padding: 10px;
-}
-#box-4 {
-  order: -1;
-  align-self: stretch; 
-}
+    gap: 20px;
+    padding: 10px;
+  }
+  #box-4 {
+    order: -1;
+    align-self: stretch;
+  }
 }
