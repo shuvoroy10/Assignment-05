@@ -181,6 +181,10 @@ div > img {
   background-color: white;
   color: #5c5c5c;
 }
+.copy-btn:hover{
+  color: white;
+  background-color: black;
+}
 .call-btn {
   background-color: #00a63e;
   color: white;
