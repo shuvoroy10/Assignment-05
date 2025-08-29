@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
 }
-body{
-    background-color: #F5FFF6
+body {
+  background-color: #f5fff6;
 }
 /* Adding Font */
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Font Style */
 .hind-madurai {
@@ -20,6 +21,12 @@ body{
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 600;
+  font-style: normal;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -46,7 +53,7 @@ div > img {
   width: 50px;
   height: 50px;
 }
-div > h3 {
+.nav-div > h3 {
   margin-left: 10px;
 }
 .nav-right > div {
@@ -87,11 +94,12 @@ div > h3 {
 .hero-section > p {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 /* Emergency Section */
 .emergency-section {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 360px 360px 360px;
   gap: 30px;
   padding: 30px 60px 30px 60px;
@@ -99,7 +107,101 @@ div > h3 {
 .box {
   background-color: white;
   border-radius: 10px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  padding: 30px;
 }
-#box-4{
-    grid-row: span 3;
+.box > img {
+  width: 60px;
+  height: 60px;
+}
+#box-4 {
+  grid-row: span 3;
+}
+.top-section {
+  justify-content: space-between;
+}
+.top-section > button {
+  border: none;
+  background-color: white;
+}
+.icon {
+  font-size: 20px;
+}
+.middle-section {
+  margin-top: 30px;
+}
+.middle-section > h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #111111;
+}
+.middle-section > p {
+  font-size: 18px;
+  color: #5c5c5c;
+  margin: 5px 0 25px 0;
+}
+.middle-section > span {
+  font-size: 32px;
+  color: #111111;
+}
+.middle-p-btn {
+  width: 25%;
+  height: 27px;
+  background-color: #f2f2f2;
+  color: #5c5c5c;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 15px;
+}
+.middle-p-btn > p {
+  padding-top: 3px;
+}
+.end-secction {
+  margin-top: 30px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.end-secction > button {
+  width: 47%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #d4d6d5;
+  font-size: 16px;
+}
+.copy-btn {
+  background-color: white;
+  color: #5c5c5c;
+}
+.call-btn {
+  background-color: #00a63e;
+  color: white;
+}
+.history-section {
+  justify-content: space-between;
+}
+.history-btn{
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: #111111;
+}
+.clear-btn {
+  background-color: #00a63e;
+  color: white;
+  width: 35%;
+  height: 52px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+.call-history-section{
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.call-history-section-date{
+  font-size: 20px;
+}
+.call-history-section-name{
+  font-size: 18px;
 }

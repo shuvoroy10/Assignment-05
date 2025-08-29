@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 05</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
+      <!-- Navbar -->
       <nav class="navbar flex max-width">
-        <div class="flex">
+        <div class="flex nav-div">
           <img src="./assets/logo.png" alt="" />
           <h3>
             Emergency <br />
@@ -34,6 +42,7 @@
     </header>
 
     <main>
+      <!-- Hero Section -->
       <div class="hero-section flex hind-madurai">
         <img src="./assets/logo.png" alt="" />
         <h2>Emergency Service Directory</h2>
@@ -42,17 +51,215 @@
           Government of the People’s Republic of Bangladesh
         </p>
       </div>
+      <!-- Emergency Section -->
       <div class="emergency-section">
-        <div class="box" id="box-1">box-1</div>
-        <div class="box" id="box-2">box-2</div>
-        <div class="box" id="box-3">box-3</div>
-        <div class="box" id="box-4">box-4</div>
-        <div class="box" id="box-5">box-5</div>
-        <div class="box" id="box-6">box-6</div>
-        <div class="box" id="box-7">box-7</div>
-        <div class="box" id="box-8">box-8</div>
-        <div class="box" id="box-9">box-9</div>
-        <div class="box" id="box-10">box-10</div>
+        <!-- National Emergency Number -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/emergency.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">National Emergency Number</h3>
+            <p class="roboto">National Emergency</p>
+            <span class="roboto">999</span>
+            <div class="middle-p-btn hind-madurai"><p>All</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Police Helpline Number -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/police.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Police Helpline Number</h3>
+            <p class="roboto">Police</p>
+            <span class="roboto">999</span>
+            <div class="middle-p-btn hind-madurai"><p>Police</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Fire Service Number -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/fire-service.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Fire Service Number</h3>
+            <p class="roboto">Fire Service</p>
+            <span class="roboto">999</span>
+            <div class="middle-p-btn hind-madurai"><p>Fire</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Call History -->
+        <div class="box" id="box-4">
+          <div class="history-section flex inter">
+            <button class="history-btn">
+              <i class="fa-regular fa-clock"></i> Call History
+            </button>
+            <button class="clear-btn">
+              Clear
+            </button>
+          </div>
+          <div class="flex call-history-section">
+            <div class="call-history-section-name">
+              <h3 class="inter">Fire Service Number</h3>
+              <span class="hind-madurai">999</span>
+            </div>
+            <div><p class="hind-madurai call-history-section-date">11:36:58 AM</p></div>
+          </div>
+        </div>
+        <!-- Ambulance Service -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/ambulance.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Ambulance Service</h3>
+            <p class="roboto">Ambulance</p>
+            <span class="roboto">1994-999999</span>
+            <div class="middle-p-btn hind-madurai"><p>Health</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Women & Child Helpline -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/emergency.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Women & Child Helpline</h3>
+            <p class="roboto">Women & Child Helpline</p>
+            <span class="roboto">109</span>
+            <div class="middle-p-btn hind-madurai"><p>Help</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Anti-Corruption Helpline -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/emergency.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Anti-Corruption Helpline</h3>
+            <p class="roboto">Anti-Corruption</p>
+            <span class="roboto">106</span>
+            <div class="middle-p-btn hind-madurai"><p>Govt.</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Electricity Helpline -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/emergency.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Electricity Helpline</h3>
+            <p class="roboto">Electricity Outage</p>
+            <span class="roboto">16216</span>
+            <div class="middle-p-btn hind-madurai"><p>Electricity</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Brac Helpline -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/brac.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Brac Helpline</h3>
+            <p class="roboto">Brac</p>
+            <span class="roboto">16445</span>
+            <div class="middle-p-btn hind-madurai"><p>NGO</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Bangladesh Railway Helpline  -->
+        <div class="box">
+          <div class="flex top-section">
+            <img src="./assets/Bangladesh-Railway.png" alt="" />
+            <button><i class="fa-regular fa-heart icon"></i></button>
+          </div>
+          <div class="middle-section">
+            <h3 class="hind-madurai">Bangladesh Railway Helpline</h3>
+            <p class="roboto">Bangladesh Railway</p>
+            <span class="roboto">163</span>
+            <div class="middle-p-btn hind-madurai"><p>Travel</p></div>
+          </div>
+          <div class="end-secction flex roboto">
+            <button class="copy-btn">
+              <i class="fa-regular fa-copy"> </i>Copy
+            </button>
+            <button class="call-btn">
+              <i class="fa-solid fa-phone"> </i>Call
+            </button>
+          </div>
+        </div>
       </div>
     </main>
   </body>
